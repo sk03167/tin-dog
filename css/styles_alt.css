@@ -1,0 +1,160 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+body{
+  font-family: "Montserrat"
+
+}
+.heading_1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2rem;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav_item{
+  padding: 0 18px;
+}
+
+.nav_link{
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+ /* Download buttons */
+ .download-button{
+   margin: 5% 3% 5% 0;
+ }
+
+ /* title image */
+
+ .title-image{
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   z-index: 0;
+   right: 3rem;
+
+ }
+
+.feature-image{
+  color: #ef8172;
+  padding-bottom: 1.5rem;
+
+
+
+}
+.feature-image:hover{
+  color: #ff4c68;
+
+}
+
+.feature{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-align: center;
+
+}
+#features{
+
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+.feature-row{
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 4rem;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+
+ }
+
+.testi-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 1.3rem;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-bottom: 4%;
+}
+
+.press-logo{
+  width: 20%;
+  margin: 1.2rem;
+
+}
+.carousel-item{
+  /* initially the padding was applied to #testimonials but that made the
+  buttons aspart of the content. To make the buttons occupy a bigger area
+  i.e all the area of screen outside of content, add padding only to
+  carousel-item that does not encompass the button. */
+  padding: 7% 15% 7% 15%;
+}
+#pricing{
+  padding: 3rem 2rem;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5rem 2rem;
+
+
+}
+.end_heading{
+  color: #fff;
+  font-style: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+#footer{
+  text-align: center;
+  padding: 2.5rem;
+  line-height: 3rem;
+  background-color: #fff;
+}
+.footer-icons{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* media query code */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
